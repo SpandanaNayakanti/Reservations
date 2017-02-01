@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EF94205C0F1312A2640E2F /* libPods-Reservation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D23A20BD51D01D15711F91 /* libPods-Reservation.a */; };
+		75267A5D1E37EC420071AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75267A5C1E37EC420071AB51 /* main.m */; };
+		75267A631E37EC420071AB51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75267A621E37EC420071AB51 /* ViewController.m */; };
+		75267A661E37EC420071AB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75267A641E37EC420071AB51 /* Main.storyboard */; };
+		75267A691E37EC420071AB51 /* Reservation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75267A671E37EC420071AB51 /* Reservation.xcdatamodeld */; };
+		75267A6B1E37EC420071AB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75267A6A1E37EC420071AB51 /* Assets.xcassets */; };
+		75267A6E1E37EC420071AB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75267A6C1E37EC420071AB51 /* LaunchScreen.storyboard */; };
+		75267A7B1E37ECFE0071AB51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75267A771E37ECFE0071AB51 /* AppDelegate.m */; };
+		75601FB31E3B0BD9004507B9 /* CLWeeklyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FA51E3B0BD8004507B9 /* CLWeeklyCalendarView.m */; };
+		75601FB41E3B0BD9004507B9 /* DailyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FA71E3B0BD9004507B9 /* DailyCalendarView.m */; };
+		75601FB51E3B0BD9004507B9 /* DayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FA91E3B0BD9004507B9 /* DayTitleLabel.m */; };
+		75601FB61E3B0BD9004507B9 /* NSDate+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FAC1E3B0BD9004507B9 /* NSDate+CL.m */; };
+		75601FB71E3B0BD9004507B9 /* NSDictionary+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FAE1E3B0BD9004507B9 /* NSDictionary+CL.m */; };
+		75601FB81E3B0BD9004507B9 /* UIColor+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FB01E3B0BD9004507B9 /* UIColor+CL.m */; };
+		75601FB91E3B0BD9004507B9 /* UIImage+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75601FB21E3B0BD9004507B9 /* UIImage+CL.m */; };
+		75998E7A1E38D8AD00EDEE74 /* SPAServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75998E781E38D8AD00EDEE74 /* SPAServiceViewController.m */; };
+		75998E7D1E38D8BF00EDEE74 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75998E7C1E38D8BF00EDEE74 /* ScheduleViewController.m */; };
+		75BD47051E3B7EE70009C623 /* ReservationsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD47041E3B7EE70009C623 /* ReservationsTableViewCell.m */; };
+		75DB10FA1E3A705900C18D4D /* TimeForCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DB10F91E3A705900C18D4D /* TimeForCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C41284128DAC0745CD5191A /* Pods-Reservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.debug.xcconfig"; sourceTree = "<group>"; };
+		75267A581E37EC420071AB51 /* Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75267A5C1E37EC420071AB51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75267A611E37EC420071AB51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75267A621E37EC420071AB51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75267A651E37EC420071AB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75267A681E37EC420071AB51 /* Reservation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reservation.xcdatamodel; sourceTree = "<group>"; };
+		75267A6A1E37EC420071AB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75267A6D1E37EC420071AB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75267A6F1E37EC420071AB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75267A761E37ECFE0071AB51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75267A771E37ECFE0071AB51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75601FA41E3B0BD8004507B9 /* CLWeeklyCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWeeklyCalendarView.h; sourceTree = "<group>"; };
+		75601FA51E3B0BD8004507B9 /* CLWeeklyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWeeklyCalendarView.m; sourceTree = "<group>"; };
+		75601FA61E3B0BD8004507B9 /* DailyCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyCalendarView.h; sourceTree = "<group>"; };
+		75601FA71E3B0BD9004507B9 /* DailyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyCalendarView.m; sourceTree = "<group>"; };
+		75601FA81E3B0BD9004507B9 /* DayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayTitleLabel.h; sourceTree = "<group>"; };
+		75601FA91E3B0BD9004507B9 /* DayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayTitleLabel.m; sourceTree = "<group>"; };
+		75601FAB1E3B0BD9004507B9 /* NSDate+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CL.h"; sourceTree = "<group>"; };
+		75601FAC1E3B0BD9004507B9 /* NSDate+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CL.m"; sourceTree = "<group>"; };
+		75601FAD1E3B0BD9004507B9 /* NSDictionary+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CL.h"; sourceTree = "<group>"; };
+		75601FAE1E3B0BD9004507B9 /* NSDictionary+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CL.m"; sourceTree = "<group>"; };
+		75601FAF1E3B0BD9004507B9 /* UIColor+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CL.h"; sourceTree = "<group>"; };
+		75601FB01E3B0BD9004507B9 /* UIColor+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CL.m"; sourceTree = "<group>"; };
+		75601FB11E3B0BD9004507B9 /* UIImage+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CL.h"; sourceTree = "<group>"; };
+		75601FB21E3B0BD9004507B9 /* UIImage+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CL.m"; sourceTree = "<group>"; };
+		75998E771E38D8AD00EDEE74 /* SPAServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SPAServiceViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75998E781E38D8AD00EDEE74 /* SPAServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SPAServiceViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75998E7B1E38D8BF00EDEE74 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ScheduleViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75998E7C1E38D8BF00EDEE74 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ScheduleViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75BD47031E3B7EE70009C623 /* ReservationsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ReservationsTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75BD47041E3B7EE70009C623 /* ReservationsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ReservationsTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		75DB10F81E3A705900C18D4D /* TimeForCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TimeForCollectionViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		75DB10F91E3A705900C18D4D /* TimeForCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TimeForCollectionViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D0D23A20BD51D01D15711F91 /* libPods-Reservation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reservation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF814696CAC01897B20BB91A /* Pods-Reservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75267A551E37EC420071AB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EF94205C0F1312A2640E2F /* libPods-Reservation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040B501DB4C09ABC3C5983F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D23A20BD51D01D15711F91 /* libPods-Reservation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75267A4F1E37EC420071AB51 = {
+			isa = PBXGroup;
+			children = (
+				75267A5A1E37EC420071AB51 /* Reservation */,
+				75267A591E37EC420071AB51 /* Products */,
+				C78EBC02BBB459694D1EBD1F /* Pods */,
+				040B501DB4C09ABC3C5983F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75267A591E37EC420071AB51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75267A581E37EC420071AB51 /* Reservation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75267A5A1E37EC420071AB51 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				75601FA21E3B0BD8004507B9 /* ThirdpartyClasses */,
+				75267A751E37ECFE0071AB51 /* BaseClass */,
+				75267A781E37ECFE0071AB51 /* Resources */,
+				75267A7A1E37ECFE0071AB51 /* ViewControllers */,
+				75267A641E37EC420071AB51 /* Main.storyboard */,
+				75267A6A1E37EC420071AB51 /* Assets.xcassets */,
+				75267A6C1E37EC420071AB51 /* LaunchScreen.storyboard */,
+				75267A6F1E37EC420071AB51 /* Info.plist */,
+				75267A671E37EC420071AB51 /* Reservation.xcdatamodeld */,
+				75267A5B1E37EC420071AB51 /* Supporting Files */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		75267A5B1E37EC420071AB51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75267A5C1E37EC420071AB51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75267A751E37ECFE0071AB51 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				75267A761E37ECFE0071AB51 /* AppDelegate.h */,
+				75267A771E37ECFE0071AB51 /* AppDelegate.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		75267A781E37ECFE0071AB51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75267A791E37ECFE0071AB51 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75267A791E37ECFE0071AB51 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		75267A7A1E37ECFE0071AB51 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75BD47021E3B7EA80009C623 /* Views */,
+				75998E761E38D8AD00EDEE74 /* SAPServiceViewCOntroller */,
+				75998E791E38D8AD00EDEE74 /* ScheduleViewControllers */,
+				75267A611E37EC420071AB51 /* ViewController.h */,
+				75267A621E37EC420071AB51 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75601FA21E3B0BD8004507B9 /* ThirdpartyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75601FA31E3B0BD8004507B9 /* CLWeeklyCalendarViewSourceCode */,
+			);
+			path = ThirdpartyClasses;
+			sourceTree = "<group>";
+		};
+		75601FA31E3B0BD8004507B9 /* CLWeeklyCalendarViewSourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				75601FA41E3B0BD8004507B9 /* CLWeeklyCalendarView.h */,
+				75601FA51E3B0BD8004507B9 /* CLWeeklyCalendarView.m */,
+				75601FA61E3B0BD8004507B9 /* DailyCalendarView.h */,
+				75601FA71E3B0BD9004507B9 /* DailyCalendarView.m */,
+				75601FA81E3B0BD9004507B9 /* DayTitleLabel.h */,
+				75601FA91E3B0BD9004507B9 /* DayTitleLabel.m */,
+				75601FAA1E3B0BD9004507B9 /* Misc */,
+			);
+			path = CLWeeklyCalendarViewSourceCode;
+			sourceTree = "<group>";
+		};
+		75601FAA1E3B0BD9004507B9 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				75601FAB1E3B0BD9004507B9 /* NSDate+CL.h */,
+				75601FAC1E3B0BD9004507B9 /* NSDate+CL.m */,
+				75601FAD1E3B0BD9004507B9 /* NSDictionary+CL.h */,
+				75601FAE1E3B0BD9004507B9 /* NSDictionary+CL.m */,
+				75601FAF1E3B0BD9004507B9 /* UIColor+CL.h */,
+				75601FB01E3B0BD9004507B9 /* UIColor+CL.m */,
+				75601FB11E3B0BD9004507B9 /* UIImage+CL.h */,
+				75601FB21E3B0BD9004507B9 /* UIImage+CL.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		75998E761E38D8AD00EDEE74 /* SAPServiceViewCOntroller */ = {
+			isa = PBXGroup;
+			children = (
+				75998E771E38D8AD00EDEE74 /* SPAServiceViewController.h */,
+				75998E781E38D8AD00EDEE74 /* SPAServiceViewController.m */,
+			);
+			path = SAPServiceViewCOntroller;
+			sourceTree = "<group>";
+		};
+		75998E791E38D8AD00EDEE74 /* ScheduleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75998E7B1E38D8BF00EDEE74 /* ScheduleViewController.h */,
+				75998E7C1E38D8BF00EDEE74 /* ScheduleViewController.m */,
+				75DB10F81E3A705900C18D4D /* TimeForCollectionViewCell.h */,
+				75DB10F91E3A705900C18D4D /* TimeForCollectionViewCell.m */,
+			);
+			path = ScheduleViewControllers;
+			sourceTree = "<group>";
+		};
+		75BD47021E3B7EA80009C623 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75BD47031E3B7EE70009C623 /* ReservationsTableViewCell.h */,
+				75BD47041E3B7EE70009C623 /* ReservationsTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C78EBC02BBB459694D1EBD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C41284128DAC0745CD5191A /* Pods-Reservation.debug.xcconfig */,
+				FF814696CAC01897B20BB91A /* Pods-Reservation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75267A571E37EC420071AB51 /* Reservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75267A721E37EC420071AB51 /* Build configuration list for PBXNativeTarget "Reservation" */;
+			buildPhases = (
+				26C3913B35391CE9185A77D6 /* [CP] Check Pods Manifest.lock */,
+				75267A541E37EC420071AB51 /* Sources */,
+				75267A551E37EC420071AB51 /* Frameworks */,
+				75267A561E37EC420071AB51 /* Resources */,
+				08703AEEECFA75AEB638D722 /* [CP] Embed Pods Frameworks */,
+				02A583F27A6C10C662897663 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reservation;
+			productName = Reservation;
+			productReference = 75267A581E37EC420071AB51 /* Reservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75267A501E37EC420071AB51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = karthik;
+				TargetAttributes = {
+					75267A571E37EC420071AB51 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 75267A531E37EC420071AB51 /* Build configuration list for PBXProject "Reservation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75267A4F1E37EC420071AB51;
+			productRefGroup = 75267A591E37EC420071AB51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75267A571E37EC420071AB51 /* Reservation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75267A561E37EC420071AB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75267A6E1E37EC420071AB51 /* LaunchScreen.storyboard in Resources */,
+				75267A6B1E37EC420071AB51 /* Assets.xcassets in Resources */,
+				75267A661E37EC420071AB51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A583F27A6C10C662897663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08703AEEECFA75AEB638D722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26C3913B35391CE9185A77D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75267A541E37EC420071AB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75267A631E37EC420071AB51 /* ViewController.m in Sources */,
+				75601FB61E3B0BD9004507B9 /* NSDate+CL.m in Sources */,
+				75998E7D1E38D8BF00EDEE74 /* ScheduleViewController.m in Sources */,
+				75601FB41E3B0BD9004507B9 /* DailyCalendarView.m in Sources */,
+				75998E7A1E38D8AD00EDEE74 /* SPAServiceViewController.m in Sources */,
+				75601FB51E3B0BD9004507B9 /* DayTitleLabel.m in Sources */,
+				75601FB91E3B0BD9004507B9 /* UIImage+CL.m in Sources */,
+				75267A691E37EC420071AB51 /* Reservation.xcdatamodeld in Sources */,
+				75DB10FA1E3A705900C18D4D /* TimeForCollectionViewCell.m in Sources */,
+				75BD47051E3B7EE70009C623 /* ReservationsTableViewCell.m in Sources */,
+				75267A5D1E37EC420071AB51 /* main.m in Sources */,
+				75601FB71E3B0BD9004507B9 /* NSDictionary+CL.m in Sources */,
+				75601FB31E3B0BD9004507B9 /* CLWeeklyCalendarView.m in Sources */,
+				75601FB81E3B0BD9004507B9 /* UIColor+CL.m in Sources */,
+				75267A7B1E37ECFE0071AB51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75267A641E37EC420071AB51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75267A651E37EC420071AB51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75267A6C1E37EC420071AB51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75267A6D1E37EC420071AB51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75267A701E37EC420071AB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75267A711E37EC420071AB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75267A731E37EC420071AB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C41284128DAC0745CD5191A /* Pods-Reservation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75267A741E37EC420071AB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF814696CAC01897B20BB91A /* Pods-Reservation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75267A531E37EC420071AB51 /* Build configuration list for PBXProject "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75267A701E37EC420071AB51 /* Debug */,
+				75267A711E37EC420071AB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75267A721E37EC420071AB51 /* Build configuration list for PBXNativeTarget "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75267A731E37EC420071AB51 /* Debug */,
+				75267A741E37EC420071AB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75267A671E37EC420071AB51 /* Reservation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75267A681E37EC420071AB51 /* Reservation.xcdatamodel */,
+			);
+			currentVersion = 75267A681E37EC420071AB51 /* Reservation.xcdatamodel */;
+			path = Reservation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75267A501E37EC420071AB51 /* Project object */;
+}
